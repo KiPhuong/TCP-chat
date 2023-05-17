@@ -112,7 +112,6 @@ namespace telnet_server
             }
         }
 
-
         private void Bai05_Server_FormClosed(object sender, FormClosedEventArgs e)
         {
             foreach (Socket socket in ListClient)
